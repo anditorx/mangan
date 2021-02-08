@@ -10,10 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GeneralPage(
-        onBackBtnPressed: (){},
-        child: Text('body'),
-      ),
+      home: SignInPage(),
     );
   }
 }
